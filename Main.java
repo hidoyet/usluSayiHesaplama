@@ -5,16 +5,16 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		int taban,kuvvet,sonuc=1;
+		int base,power,result=1;
 		Scanner scanner=new Scanner(System.in);
-		System.out.println("Üssü alýnacak sayýyý giriniz: ");
-		taban=scanner.nextInt();
-		System.out.println("Sayýnýn kaçýncý kuvveti alýnacak?");
-		kuvvet=scanner.nextInt();
-		for(int i=1;i<kuvvet+1;i++) {			
-			sonuc*=taban;
+		System.out.println("ÃœssÃ¼ alÄ±nacak sayÄ±yÄ± giriniz: ");
+		base=scanner.nextInt();
+		System.out.println("SayÄ±nÄ±n kaÃ§Ä±ncÄ± kuvveti alÄ±nacak?");
+		power=scanner.nextInt();
+		for(int i=1;i<power+1;i++) {			
+			result*=base;
 		}		
-		System.out.println(taban+" sayýsýnýn "+kuvvet+"'inci kuvveti "+sonuc+"'dir");
+		System.out.println(base+" sayÄ±sÄ±nÄ±n "+power+"'inci kuvveti "+result+"'dir");
 	}
 
 }
